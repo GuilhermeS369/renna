@@ -1,9 +1,11 @@
 package com.alice.renna.domain;
 
 import java.io.Serializable;
-import java.util.Objects;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 
@@ -15,6 +17,9 @@ public class User implements Serializable {
 	private String id;
 	private String name;
 	private String email;
+	
+	@DBRef(lazy = true)
+	private List<Post> posts = new ArrayList<>();
 	
 	public User() {
 		
@@ -50,22 +55,12 @@ public class User implements Serializable {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-
-	@Override
-	public int hashCode() {
-		return Objects.hash(id);
+	public List<Post> getPosts() {
+		return posts;
 	}
 
-	@Override
-	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		User other = (User) obj;
-		return Objects.equals(id, other.id);
+	public void setPosts(List<Post> posts) {
+		this.posts = posts;
 	}
 	
 	
