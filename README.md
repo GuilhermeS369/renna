@@ -122,7 +122,9 @@ localhost:8080/posts/fullsearch?text=Que%daora&maxDate=2022-08-03
 ## 🎁 Expressões de gratidão
 
 * Gostaria de agradecer ao professor Nelio Alves por oferecer um curso que trás além de conteúdo super atualizado uma formula de ensino que já nos apresenta às boas práticas do desenvolvimento de software, sem falar na excelente didática.
-Github do mesmo: [Git](https://github.com/acenelio)
+Github do mesmo:
+
+[Git](https://github.com/acenelio)
 
 ## Licença
 
