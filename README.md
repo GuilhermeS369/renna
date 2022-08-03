@@ -112,3 +112,7 @@ Exemplo:
 localhost:8080/posts/fullsearch?text=Que%daora&maxDate=2022-08-03
 ```
 
+
+## Licença
+
+The scripts and documentation in this project are released under the [MIT License](LICENSE)
