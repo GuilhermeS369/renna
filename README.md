@@ -1,6 +1,6 @@
 # Renna
 
-## O projeto
+## O Projeto
 Esse é um projeto Back-end Webservices que controla o Feed de uma rede social onde contem diversos realizando posts e comentando no mesmo.
 
 ## Pré-requsitos
