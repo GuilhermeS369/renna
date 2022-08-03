@@ -10,14 +10,6 @@
 
 - https://cdn.azul.com/zulu/bin/zulu18.32.11-ca-jdk18.0.2-win_x64.msi
 
-### Download do Ganache: 
-
-- https://trufflesuite.com/ganache/
-
-### Instalação do Metamask: 
-
-- https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en
-
 ## Instruções
 
 ### Instalar o MongoDB
