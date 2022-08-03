@@ -67,7 +67,7 @@ ________________________________________________________________________________
 ```yaml
 Inserir um novo usuario:
 localhost:8080/users/
-Enviar no Body em formto JSON:
+Enviar no Body em formato JSON:
 {
 "name" : "Alice",
 "email" : "Alice@gmail.com"
@@ -79,7 +79,7 @@ ________________________________________________________________________________
 Alterar um usuario existente:
 localhost:8080/users/62eaab9a8950645017822f2f
 
-Enviar no Body em formto JSON:
+Enviar no Body em formato JSON:
 {
 "name" : "Alice",
 "email" : "Alice@gmail.com"
