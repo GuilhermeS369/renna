@@ -115,7 +115,8 @@ localhost:8080/posts/fullsearch?text=Que%daora&maxDate=2022-08-03
 
 ## 🛠️ Construído com
 
-* [SpringToolsSuite4](https://spring.io/guides/gs/sts/) - O framework web usado
+* [SpringToolsSuite4](https://spring.io/guides/gs/sts/) - IDE
+* [SpringBoot](https://spring.io/) - Framework principal
 * [Maven](https://maven.apache.org/) - Gerente de Dependência
 
 
