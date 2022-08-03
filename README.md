@@ -24,7 +24,7 @@ Acrescentar em PATH: C:\Program Files\MongoDB\Server\3.6\bin (adapte para sua ve
 
 Testar no terminal: mongod
 
-## Instalar o Zulu
+### Instalar o Zulu
 
 Baixar e realiza a instalação marcando a opção JAVA_HOME para instalação.
 
