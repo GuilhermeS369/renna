@@ -3,7 +3,7 @@
 ## O Projeto
 Esse é um projeto Back-end Webservices que controla o Feed de uma rede social onde contem diversos usuarios realizando posts e comentando no mesmo.
 
-## Pré-requsitos
+## 📋 Pré-requsitos
 
 ### Instalar o MongoDB
 
@@ -13,7 +13,7 @@ Esse é um projeto Back-end Webservices que controla o Feed de uma rede social o
 
 - https://cdn.azul.com/zulu/bin/zulu18.32.11-ca-jdk18.0.2-win_x64.msi
 
-## Instruções
+## 🔧 Instruções 
 
 ### Instalar o MongoDB
 
@@ -39,7 +39,7 @@ Baixar o App: https://drive.google.com/file/d/1ksB3ZgnOM93DtTnblxUev-dl6ZDDMeTC/
 
 Alocar os arquivos em questão e abrir o Executavel.bat.
 
-## Usabilidade (Requisições)
+## ⚙️ Usabilidade (Requisições) 
 
 `GET` Users
 
@@ -113,6 +113,16 @@ Exemplo:
 localhost:8080/posts/fullsearch?text=Que%daora&maxDate=2022-08-03
 ```
 
+## 🛠️ Construído com
+
+* [SpringToolsSuite4](https://spring.io/guides/gs/sts/) - O framework web usado
+* [Maven](https://maven.apache.org/) - Gerente de Dependência
+
+
+## 🎁 Expressões de gratidão
+
+* Gostaria de agradecer ao professor Nelio Alves por oferecer um curso que trás além de conteúdo super atualizado uma formula de ensino que já nos apresenta às boas práticas do desenvolvimento de software, sem falar na excelente didática.
+Github do mesmo: [Git](https://github.com/acenelio)
 
 ## Licença
 
