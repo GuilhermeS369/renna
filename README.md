@@ -18,7 +18,7 @@ Baixar e realizar a instalação com opção "Complete"
 
 https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/ -> Set up the MongoDB environment
 
-Criar pasta C\data\db
+Criar pasta C:\data\db
 
 Acrescentar em PATH: C:\Program Files\MongoDB\Server\3.6\bin (adapte para sua versão)
 
