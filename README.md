@@ -23,7 +23,7 @@ https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/ -> Set up t
 
 Criar pasta C:\data\db
 
-Acrescentar em PATH: C:\Program Files\MongoDB\Server\3.6\bin (adapte para sua versão)
+Acrescentar em PATH: C:\Program Files\MongoDB\Server\3.6\bin (adapte para sua versão).
 
 Testar no terminal: mongod
 
@@ -32,6 +32,12 @@ Testar no terminal: mongod
 Baixar e realiza a instalação marcando a opção JAVA_HOME para instalação.
 
 Verificar se foi registrando a variavel de ambiente, caso contrario registrar.
+
+### Package
+
+Baixar o App: https://drive.google.com/file/d/1ksB3ZgnOM93DtTnblxUev-dl6ZDDMeTC/view
+
+Alocar os arquivos em questão e abrir o Executavel.bat.
 
 ## Usabilidade (Requisições)
 
