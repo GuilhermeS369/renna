@@ -74,9 +74,12 @@ Enviar no Body em formato JSON:
 }
 ```
 ____________________________________________________________________________________________________________________
+
 `PUT` Users
 ```yaml
 Alterar um usuario existente:
+localhost:8080/users/{ID}
+Exemplo:
 localhost:8080/users/62eaab9a8950645017822f2f
 
 Enviar no Body em formato JSON:
@@ -86,6 +89,7 @@ Enviar no Body em formato JSON:
 }
 ```
 ____________________________________________________________________________________________________________________
+
 `DELETE` Users
 ```yaml
 localhost:8080/users/{ID}
@@ -93,6 +97,7 @@ Exemplo:
 localhost:8080/users/62eaab9a8950645017822f2f
 ```
 ____________________________________________________________________________________________________________________
+
 `GET` Posts
 ```yaml
 Buscar pelo ID:
