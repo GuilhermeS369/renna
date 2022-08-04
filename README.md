@@ -1,7 +1,7 @@
 # Renna
 
 ## O Projeto
-Esse é um projeto Back-end API Restful (Webservices + noSQL) que controla o Feed de uma rede social onde contem diversos usuarios realizando posts e comentando no mesmo.
+Esse é um projeto Back-end API Restful (Webservices + noSQL) que controla o Feed de uma rede social onde contem diversos usuários realizando posts e comentando no mesmo.
 
 ## 📋 Pré-requsitos
 
@@ -55,7 +55,7 @@ Exemplo:
 localhost:8080/users/62eaab9a8950645017822f2f
 ```
 ```yaml
-Buscar post de um determinado usuario:
+Buscar post de um determinado usuário:
 localhost:8080/users/{id}/posts
 Exemplo:
 localhost:8080/users/62eaab9a8950645017822f2f/posts
@@ -65,7 +65,7 @@ ________________________________________________________________________________
 `POST` Users
 
 ```yaml
-Inserir um novo usuario:
+Inserir um novo usuário:
 localhost:8080/users/
 Enviar no Body em formato JSON:
 {
@@ -77,7 +77,7 @@ ________________________________________________________________________________
 
 `PUT` Users
 ```yaml
-Alterar um usuario existente:
+Alterar um usuário existente:
 localhost:8080/users/{ID}
 Exemplo:
 localhost:8080/users/62eaab9a8950645017822f2f
