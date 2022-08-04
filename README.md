@@ -1,7 +1,7 @@
 # Renna
 
 ## O Projeto
-Esse é um projeto Back-end Webservices que controla o Feed de uma rede social onde contem diversos usuarios realizando posts e comentando no mesmo.
+Esse é um projeto Back-end API Restful (Webservices + noSQL) que controla o Feed de uma rede social onde contem diversos usuarios realizando posts e comentando no mesmo.
 
 ## 📋 Pré-requsitos
 
