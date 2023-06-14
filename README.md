@@ -1,7 +1,7 @@
 # Renna
 
 ## O Projeto
-Esse é um projeto Back-end Webservices que controla o Feed de uma rede social onde contem diversos usuarios realizando posts e comentando no mesmo.
+Esse é um projeto Back-end API Restful (Webservices + noSQL) que controla o Feed de uma rede social onde contem diversos usuários realizando posts e comentando no mesmo.
 
 ## 📋 Pré-requsitos
 
@@ -55,7 +55,7 @@ Exemplo:
 localhost:8080/users/62eaab9a8950645017822f2f
 ```
 ```yaml
-Buscar post de um determinado usuario:
+Buscar post de um determinado usuário:
 localhost:8080/users/{id}/posts
 Exemplo:
 localhost:8080/users/62eaab9a8950645017822f2f/posts
@@ -65,27 +65,31 @@ ________________________________________________________________________________
 `POST` Users
 
 ```yaml
-Inserir um novo usuario:
+Inserir um novo usuário:
 localhost:8080/users/
-Enviar no Body em formto JSON:
+Enviar no Body em formato JSON:
 {
 "name" : "Alice",
 "email" : "Alice@gmail.com"
 }
 ```
 ____________________________________________________________________________________________________________________
+
 `PUT` Users
 ```yaml
-Alterar um usuario existente:
+Alterar um usuário existente:
+localhost:8080/users/{ID}
+Exemplo:
 localhost:8080/users/62eaab9a8950645017822f2f
 
-Enviar no Body em formto JSON:
+Enviar no Body em formato JSON:
 {
 "name" : "Alice",
 "email" : "Alice@gmail.com"
 }
 ```
 ____________________________________________________________________________________________________________________
+
 `DELETE` Users
 ```yaml
 localhost:8080/users/{ID}
@@ -93,6 +97,7 @@ Exemplo:
 localhost:8080/users/62eaab9a8950645017822f2f
 ```
 ____________________________________________________________________________________________________________________
+
 `GET` Posts
 ```yaml
 Buscar pelo ID:
@@ -115,7 +120,8 @@ localhost:8080/posts/fullsearch?text=Que%daora&maxDate=2022-08-03
 
 ## 🛠️ Construído com
 
-* [SpringToolsSuite4](https://spring.io/guides/gs/sts/) - O framework web usado
+* [SpringToolsSuite4](https://spring.io/guides/gs/sts/) - IDE
+* [SpringBoot](https://spring.io/) - Framework principal
 * [Maven](https://maven.apache.org/) - Gerente de Dependência
 
 
@@ -123,7 +129,7 @@ localhost:8080/posts/fullsearch?text=Que%daora&maxDate=2022-08-03
 
 * Gostaria de agradecer ao professor Nelio Alves por oferecer um curso que trás além de conteúdo super atualizado uma formula de ensino que já nos apresenta às boas práticas do desenvolvimento de software, sem falar na excelente didática.
  
-*Github do mesmo:[acenelio](https://github.com/acenelio)
+* Github do mesmo: [acenelio](https://github.com/acenelio)
 
 ## 📄 Licença
 
