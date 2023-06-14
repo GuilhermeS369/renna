@@ -3,6 +3,7 @@
 ## O Projeto
 Esse é um projeto Back-end API Restful (Webservices + noSQL) que controla o Feed de uma rede social onde contem diversos usuários realizando posts e comentando no mesmo.
 
+
 ## 📋 Pré-requsitos
 
 ### Instalar o MongoDB
@@ -40,6 +41,8 @@ Baixar o App: https://drive.google.com/file/d/1ksB3ZgnOM93DtTnblxUev-dl6ZDDMeTC/
 Alocar os arquivos em questão e abrir o Executavel.bat.
 
 ## ⚙️ Usabilidade (Requisições) 
+
+Caso queira realizar o teste do projeto, realizar as requisições para o seguinte endereço: http://renna-production.up.railway.app/
 
 `GET` Users
 
