@@ -42,8 +42,6 @@ Alocar os arquivos em questão e abrir o Executavel.bat.
 
 ## ⚙️ Usabilidade (Requisições) 
 
-Caso queira realizar o teste do projeto, realizar as requisições para o seguinte endereço: http://renna-production.up.railway.app/
-
 `GET` Users
 
 ```yaml
